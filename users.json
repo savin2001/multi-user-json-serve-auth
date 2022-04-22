@@ -1,1 +1,80 @@
-{"users":[{"id":1,"firstName":"admin","secondName":"stat","phone":"1234","email":"admin@email.com","userType":"customer","password":"1234"},{"id":2,"firstName":"Ola","secondName":"Bro","phone":"1234","email":"ola@email.com","userType":"customer","password":"12344"},{"id":3,"firstName":"Test","secondName":"Test","phone":"123456","email":"test@email.com","userType":"customer","password":"65431"},{"id":4,"firstName":"blah","secondName":"blah","phone":"12345","email":"blah@email.com","userType":"customer","password":"qwerty"}]}
+{
+    "customers": [
+        {
+            "id": 1,
+            "firstName": "admin",
+            "secondName": "stat",
+            "phone": "1234",
+            "email": "admin@email.com",
+            "userType": "customer",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "firstName": "Ola",
+            "secondName": "Bro",
+            "phone": "1234",
+            "email": "ola@email.com",
+            "userType": "customer",
+            "password": "12344"
+        },
+        {
+            "id": 3,
+            "firstName": "Test",
+            "secondName": "Test",
+            "phone": "1234",
+            "email": "test@email.com",
+            "userType": "customer",
+            "password": "0987"
+        }
+    ],
+    "vendors": [
+        {
+            "id": 1,
+            "firstName": "sys",
+            "secondName": "stat",
+            "phone": "1234",
+            "email": "sys@email.com",
+            "userType": "vendor",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "firstName": "Blah",
+            "secondName": "test",
+            "phone": "54321",
+            "email": "blahtest@email.com",
+            "userType": "vendor",
+            "password": "543321"
+        },
+        {
+            "id": 3,
+            "firstName": "Ola",
+            "secondName": "Mia",
+            "phone": "",
+            "email": "mia@email.com",
+            "userType": "vendor",
+            "password": "qwert"
+        }
+    ],
+    "guests": [
+        {
+            "id": 1,
+            "firstName": "sys",
+            "secondName": "stat",
+            "phone": "1234",
+            "email": "sys@email.com",
+            "userType": "guest",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "firstName": "guest",
+            "secondName": "guest",
+            "phone": "1234",
+            "email": "guest@email.com",
+            "userType": "guest",
+            "password": "1234"
+        }
+    ]
+}
