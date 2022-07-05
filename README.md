@@ -1,4 +1,4 @@
-# multi-user-json-serve-auth
+# multi-user-json-server-auth
 
 > This is a mock authentication system using json-server and json-server-auth npm libraries.
 > It provides the different roles to users who want to register and log into the system and stores their data in a JSON  file called users. 
